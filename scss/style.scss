@@ -1,0 +1,72 @@
+/***************/
+/*** <fonts> ***/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*** </fonts> ***/
+/****************/
+
+
+/****************/
+/*** <colors> ***/
+$lightColor: #FFFFFF;
+$darkColor: #000000;
+
+$mainColor: #212C64;
+$accentColor: #F8AD1E;
+
+$errorColor: #EF5350;
+$successColor: #4CAF50;
+
+// $grayColor1: #F2F2F2;
+// $grayColor2: #E0E0E0;
+// $grayColor3: #ECEFF1;
+// $grayColor4: #BDBDBD;
+// $grayColor5: #828282;
+// $grayColor6: #4F4F4F;
+/*** </colors> ***/
+/*****************/
+
+
+/*****************/
+/*** <shadows> ***/
+// $boxShadow1: 0px 5px 10px rgba(49, 49, 49, 0.3);
+// $boxShadow2: 2px 2px 5px rgba(49, 49, 49, 0.4);
+// $boxShadow3: 5px 5px 10px #C8C9C9;
+// $boxShadow4: 5px 5px 10px rgba(49, 49, 49, 0.4);
+// $filterShadow: drop-shadow(5px 5px 10px #C8C9C9);
+/*** </shadows> ***/
+/******************/
+
+
+/*************************/
+/*** <other variables> ***/
+// $borderRadius: 6px;
+$transition1: all 0.3s ease;
+$mainFontFamily: 'Montserrat', sans-serif;
+$accentFontFamily: 'Roboto', sans-serif;
+/*** </other variables> ***/
+/**************************/
+
+
+.container {
+   width: 100%;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+body {
+   max-width: 3440px;
+   min-width: 320px;
+   min-height: 100vh;
+   margin: 0 auto;
+   overflow-x: hidden;
+   font-family: $mainFontFamily;
+   font-size: 16px;
+   line-height: 24px;   
+   color: $darkColor;
+
+   &.lock {
+      overflow: hidden;
+   }
+}
