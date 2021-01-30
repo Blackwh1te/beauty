@@ -22,10 +22,6 @@ $grayColor3: #C4C4C4;
 /*****************/
 /*** <shadows> ***/
 $boxShadow1: 0 0 10px rgba(49, 49, 49, 0.3);
-// $boxShadow2: 2px 2px 5px rgba(49, 49, 49, 0.4);
-// $boxShadow3: 5px 5px 10px #C8C9C9;
-// $boxShadow4: 5px 5px 10px rgba(49, 49, 49, 0.4);
-// $filterShadow: drop-shadow(5px 5px 10px #C8C9C9);
 /*** </shadows> ***/
 /******************/
 
@@ -180,10 +176,6 @@ h3 {
    // .header__search
    &__search {
       margin: 0px 50px 0px 0px;
-   }
-
-   // .header__contacts
-   &__contacts {
    }
 
    // .header__bottom
@@ -367,10 +359,6 @@ h3 {
    // .product-card__image-wrapper
    &__image-wrapper {
       margin: 0px 0px 20px 0px;
-   }
-
-   // .product-card__image
-   &__image {
    }
 
    // .product-card__text
@@ -581,10 +569,6 @@ h3 {
    &__list {
       list-style: none;
       margin: 0 -12px;
-   }
-
-   // .footer-nav__item
-   &__item {
    }
 
    // .footer-nav__link
@@ -878,7 +862,7 @@ h3 {
             flex-wrap: wrap;
          }
       }
-      
+
       &__copyright {
          margin: 0px 0px 10px 0px;
       }
@@ -890,7 +874,6 @@ h3 {
       }
    }
 }
-
 
 @media screen and (max-width: 414px) {
    .menu__link {
