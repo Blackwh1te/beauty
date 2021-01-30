@@ -499,6 +499,12 @@ h3 {
   transition: all 0.3s ease;
 }
 
+@media screen and (min-width: 1900px) {
+  .banner {
+    background-size: contain;
+  }
+}
+
 @media screen and (max-width: 992px) {
   h1 {
     font-size: 36px;
